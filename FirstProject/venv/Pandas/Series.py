@@ -21,7 +21,7 @@ s = Series(data_array,index= ['index1', 'index2','index3'])
 print s
 
 # Using real life examples
-revenue = Series([20, 80, 40, 35], index=['ola', 'uber', 'grab', 'goje'])
+revenue = Series([20, 80, 40, 35], index=['ola', 'uber', 'grab', 'gojek '])
 print revenue['ola']
 #Condition statement inside a condition
 print revenue[revenue>=35]
