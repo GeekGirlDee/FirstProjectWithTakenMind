@@ -2,8 +2,7 @@ import pandas as pd
 from pandas import Series, DataFrame
 import numpy as np
 
-# revenue_df = ([1,2,3])
-
+revenue_df = ([1, 2, 3])
 revenue_df = pd.read_clipboard()
 # print revenue_df
 
@@ -47,7 +46,7 @@ print revenue_df2
 # Dictionary
 sample = {
     'company': ['A', 'B'],
-    'Profit' : [1000, 5000]
+    'Profit': [1000, 5000]
 }
 print sample
 

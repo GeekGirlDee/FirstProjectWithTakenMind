@@ -17,6 +17,13 @@ print cars_df
 cars_df = cars_df.drop('BMW', axis=0)
 print cars_df
 
+
+
+
+
+
+print "--------------------------------------"
+
 # type: DataFrame # Drop a column use the axis as an index number
 cars_df1 = cars_df.drop('pro', axis=1)
 print cars_df1

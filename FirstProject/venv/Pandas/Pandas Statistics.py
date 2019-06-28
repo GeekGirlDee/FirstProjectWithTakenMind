@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # 2d array
 # np.nan stands for non value
-array1 = np.array([[10,np.nan,20],[30,40,np.nan]])
+array1 = np.array([[10, np.nan, 20], [30, 40, np.nan]])
 print array1
 
 # creating a Data Frame
@@ -19,6 +19,18 @@ print df1
 print df1.sum()
 #this is to calculate each row/indexes
 print df1.sum(axis=1)
+
+
+
+
+
+print "-----------------------------------------------"
+
+
+
+
+
+
 
 #This will show the minimum values of the column
 print "Minimun"

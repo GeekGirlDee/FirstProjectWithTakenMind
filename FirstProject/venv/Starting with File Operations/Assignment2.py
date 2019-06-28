@@ -16,7 +16,7 @@ from pandas import read_html
 dframe = pd.read_csv('demo.csv')
 print dframe
 
-# If a .csv file does not have a header it chnges it's first value to a heading
+# If a .csv file does not have a header it changes it's first value to a heading
 # if the csv file doesn't have a header you can alert the program by
 # adding the following line
 dframe = pd.read_csv('demo.csv', header=None)
@@ -65,7 +65,7 @@ dframe4 = DataFrame({'reference': ['hello', 'goodbye', 'goodbye', 'hello'], 'rev
 print dframe3
 print dframe4
 
-dframe5 = pd.merge(dframe3,dframe4,on='reference')
+dframe5 = pd.merge(dframe3, dframe4, on='reference')
 print "MERGE"
 print dframe5
 

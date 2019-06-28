@@ -25,6 +25,7 @@ print x.mean()
 print x.std()
 print x.var()
 
+print "-------------------------------"
 # logical operation - and/ or operators
 condition2 = np.array([True, False, True])
 # any uses an or operator

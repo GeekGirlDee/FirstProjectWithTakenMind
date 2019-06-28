@@ -17,14 +17,14 @@ print s
 #custom index also for change of index values
 s = Series(data_array, index=[100, 101, 102])
 print s
-s = Series(data_array,index= ['index1', 'index2','index3'])
+s = Series(data_array, index=['index1', 'index2', 'index3'])
 print s
 
 # Using real life examples
 revenue = Series([20, 80, 40, 35], index=['ola', 'uber', 'grab', 'gojek '])
 print revenue['ola']
 #Condition statement inside a condition
-print revenue[revenue>=35]
+print revenue[revenue >= 35]
 
 #using boolean to check if the condition is avalable
 print 'ola' in revenue
