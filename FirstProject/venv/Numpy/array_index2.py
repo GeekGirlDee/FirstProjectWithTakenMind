@@ -3,17 +3,15 @@ import numpy as np
 # Creating a 2 dimension array
 arr2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print arr2d
-
 # this prints the index row
-# print arr2d[0]
-
+print arr2d[0]
 # Print a specific element
-# print arr2d[0][2]
+print arr2d[0][2]
 
 # Slices of 2d array
 # the first argument 0:2 looks at the row number and the second argument looks at columns
-# slice1 = arr2d[0:2, 0:3]
-# print slice1
+slice1 = arr2d[0:2, 0:3]
+print slice1
 
 # This slice method the first argument looks at from 0 to 2
 # and the second argument looks at from 1 to the end of the array
@@ -24,7 +22,6 @@ slice2 = arr2d[:2, 1:]
 # With this code the index 1 and 2 will be changed to 15 for row index 0 and 1 and column index 0 and 1
 arr2d[:2, 1:] = 15
 print arr2d
-
 
 # Using loops to index
 # To use loops in an array you need to know what the size (length)

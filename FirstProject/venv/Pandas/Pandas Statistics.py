@@ -11,7 +11,7 @@ print array1
 # creating a Data Frame
 # this dataframe will print out the index which is the row number labled 1 2
 # columns are numbered  A B C
-df1 = DataFrame(array1, index=[1,2],columns=list('ABC'))
+df1 = DataFrame(array1, index=[1, 2], columns=list('ABC'))
 print df1
 
 #Sum operarions well known as sum() in python
